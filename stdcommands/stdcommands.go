@@ -28,6 +28,7 @@ import (
 	"github.com/botlabs-gg/yagpdb/stdcommands/listflags"
 	"github.com/botlabs-gg/yagpdb/stdcommands/listroles"
 	"github.com/botlabs-gg/yagpdb/stdcommands/memstats"
+	"github.com/botlabs-gg/yagpdb/stdcommands/name"
 	"github.com/botlabs-gg/yagpdb/stdcommands/ping"
 	"github.com/botlabs-gg/yagpdb/stdcommands/poll"
 	"github.com/botlabs-gg/yagpdb/stdcommands/roll"
@@ -82,6 +83,7 @@ func (p *Plugin) AddCommands() {
 		dogfact.Command,
 		advice.Command,
 		ping.Command,
+		name.Command,
 		throw.Command,
 		roll.Command,
 		customembed.Command,
